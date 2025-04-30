@@ -6,7 +6,8 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/Ben/OneDrive/Documents/GitHub/WildcardGameProject/WildCard/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"C:/Users/Ben/OneDrive/Documents/GitHub/WildcardGameProject/WildCard/Content/VRTemplate/Maps/VRTemplateMap.umap"
+				"C:/Users/Ben/OneDrive/Documents/GitHub/WildcardGameProject/WildCard/Content/VRTemplate/Maps/VRTemplateMap.umap",
+				"C:/Users/Ben/OneDrive/Documents/GitHub/WildcardGameProject/WildCard/Content/WildCardMap/WildCardWorld.umap"
 			]
 		}
 	]
