@@ -1812,3 +1812,597 @@ The following settings have been applied:
 [2025.04.30-01.00.06:357][578]AssetCheck: /Game/VRTemplate/Maps/VRTemplateMap Validating asset
 [2025.04.30-01.00.08:202][797]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
 [2025.04.30-01.00.08:202][797]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_1'.
+[2025.04.30-01.00.56:938][307]LogStreaming: Display: FlushAsyncLoading(363): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.30-01.01.09:394][307]LogSlate: Window 'New Level' being destroyed
+[2025.04.30-01.01.09:411][307]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.04.30-01.01.09:439][307]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.30-01.01.09:439][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.30-01.01.09:454][307]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.30-01.01.09:456][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.04.30-01.01.09:491][307]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2025.04.30-01.01.09:491][307]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_1
+[2025.04.30-01.01.09:492][307]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Temp/Untitled_1.Untitled_1'.
+[2025.04.30-01.01.09:533][307]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.04.30-01.01.09:550][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.04.30-01.01.09:551][307]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.04.30-01.01.09:551][307]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.173ms to complete.
+[2025.04.30-01.01.58:421][ 67]LogDebuggerCommands: Repeating last play command: VR Preview
+[2025.04.30-01.01.58:427][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.30-01.01.58:452][ 67]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2025.04.30-01.01.58:454][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001418s)
+[2025.04.30-01.01.58:454][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.001459s)
+[2025.04.30-01.01.58:470][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.04.30-01.01.58:476][ 67]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_1
+[2025.04.30-01.01.58:477][ 67]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Temp/UEDPIE_0_Untitled_1.Untitled_1'.
+[2025.04.30-01.01.58:477][ 67]LogPlayLevel: PIE: World Init took: (0.001426s)
+[2025.04.30-01.01.58:478][ 67]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.04.30-01.01.58:478][ 67]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.30-01.01.58:478][ 67]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.30-01.01.58:478][ 67]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.30-01.01.58:478][ 67]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.30-01.01.58:478][ 67]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.30-01.01.58:478][ 67]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.30-01.01.58:478][ 67]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.30-01.01.58:478][ 67]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.30-01.01.58:478][ 67]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.30-01.01.58:478][ 67]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.30-01.01.58:478][ 67]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.30-01.01.58:480][ 67]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.30-01.01.58:515][ 67]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (2- Realtek USB Audio)
+[2025.04.30-01.01.58:515][ 67]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.30-01.01.58:515][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.30-01.01.58:515][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.30-01.01.58:515][ 67]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.04.30-01.01.58:515][ 67]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=4
+[2025.04.30-01.01.58:519][ 67]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.04.30-01.01.58:519][ 67]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.04.30-01.01.58:519][ 67]LogInit: FAudioDevice initialized with ID 4.
+[2025.04.30-01.01.58:519][ 67]LogAudio: Display: Audio Device (ID: 4) registered with world 'Untitled_1'.
+[2025.04.30-01.01.58:519][ 67]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.04.30-01.01.58:540][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.30-01.01.58:702][ 67]LogLoad: Game class is 'VRGameMode_C'
+[2025.04.30-01.01.58:706][ 67]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2025.04.29-19.01.58
+[2025.04.30-01.01.58:706][ 67]LogWorld: Bringing up level for play took: 0.002918
+[2025.04.30-01.01.58:708][ 67]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2025.04.30-01.01.58:710][ 67]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2025.04.30-01.01.58:711][ 67]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2025.04.30-01.01.58:712][ 67]xr.SecondaryScreenPercentage.HMDRenderTarget = "100"
+[2025.04.30-01.01.58:716][ 67]PIE: Server logged in
+[2025.04.30-01.01.58:717][ 67]PIE: Play in editor total start time 0.29 seconds.
+[2025.04.30-01.01.58:718][ 67]LogHMD: Warning: Input Action IA_Hand_Point_Right has a Description, "", which exactly matches the Description already used by Action IA_Hand_Point_Left.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Hand_Point_Right, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.01.58:718][ 67]LogHMD: Warning: Input Action IA_Hand_ThumbUp_Left has a Description, "", which exactly matches the Description already used by Action IA_Hand_Point_Left.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Hand_ThumbUp_Left, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.01.58:718][ 67]LogHMD: Warning: Input Action IA_Hand_ThumbUp_Right has a Description, "", which exactly matches the Description already used by Action IA_Hand_Point_Left.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Hand_ThumbUp_Right, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.01.58:718][ 67]LogHMD: Warning: Input Action IA_Hand_Grasp_Left has a Description, "", which exactly matches the Description already used by Action IA_Hand_Point_Left.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Hand_Grasp_Left, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.01.58:718][ 67]LogHMD: Warning: Input Action IA_Hand_Grasp_Right has a Description, "", which exactly matches the Description already used by Action IA_Hand_Point_Left.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Hand_Grasp_Right, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.01.58:718][ 67]LogHMD: Warning: Input Action IA_Hand_IndexCurl_Left has a Description, "", which exactly matches the Description already used by Action IA_Hand_Point_Left.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Hand_IndexCurl_Left, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.01.58:718][ 67]LogHMD: Warning: Input Action IA_Hand_IndexCurl_Right has a Description, "", which exactly matches the Description already used by Action IA_Hand_Point_Left.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Hand_IndexCurl_Right, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.01.58:718][ 67]LogHMD: Warning: Input Mapping Context IMC_Menu has a Description, "", which exactly matches the Description already used by Input Mapping Context IMC_Hands.  Identical localized descriptions are not allowed by OpenXR.  The FName of this mapping context IMC_Menu, which is unique, will replace the duplicated localized string so the Input Mapping Context functions but it will not localize correctly.
+[2025.04.30-01.01.58:718][ 67]LogHMD: Warning: Input Action IA_Menu_Interact_Right_Pressed has a Description, "", which exactly matches the Description already used by Action IA_Menu_Interact_Left_Pressed.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Menu_Interact_Right_Pressed, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.01.58:718][ 67]LogHMD: Warning: Input Action IA_Menu_Cursor_Left has a Description, "", which exactly matches the Description already used by Action IA_Menu_Interact_Left_Pressed.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Menu_Cursor_Left, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.01.58:718][ 67]LogHMD: Warning: Input Action IA_Menu_Cursor_Right has a Description, "", which exactly matches the Description already used by Action IA_Menu_Interact_Left_Pressed.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Menu_Cursor_Right, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.01.58:718][ 67]LogHMD: Warning: Input Mapping Context IMC_Weapon_Left has a Description, "", which exactly matches the Description already used by Input Mapping Context IMC_Hands.  Identical localized descriptions are not allowed by OpenXR.  The FName of this mapping context IMC_Weapon_Left, which is unique, will replace the duplicated localized string so the Input Mapping Context functions but it will not localize correctly.
+[2025.04.30-01.01.58:718][ 67]LogHMD: Warning: Input Mapping Context IMC_Weapon_Right has a Description, "", which exactly matches the Description already used by Input Mapping Context IMC_Hands.  Identical localized descriptions are not allowed by OpenXR.  The FName of this mapping context IMC_Weapon_Right, which is unique, will replace the duplicated localized string so the Input Mapping Context functions but it will not localize correctly.
+[2025.04.30-01.01.58:746][ 67]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2025.04.30-01.01.58:817][ 69]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2025.04.30-01.02.03:034][358]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.02.04:448][460]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.02.05:962][569]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.02.06:504][608]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: ================================================
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Total job queries 208, among them cache hits 9 (4.33%), DDC hits 57 (27.40%), Duplicates 9 (4.33%)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Tracking 190 distinct input hashes that result in 172 distinct outputs (90.53%)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: RAM used: 135.22 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Shaders Compiled: 133
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Jobs assigned 133, completed 133 (100%)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Average time worker was idle: 172.71 s
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Time job spent in pending queue: average 2.14 s, longest 11.14 s
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Job execution time: average 6.87 s, max 14.83 s
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Job life time (pending + execution): average 9.01 s, max 14.91
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Shader code size: average 24.767 KiB, min 1.656 KiB, max 49.172 KiB
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 29.08 s
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Jobs were issued in 58 batches (only local compilation was used), average 2.29 jobs/batch
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Average processing rate: 4.57 jobs/sec
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Total thread time: 147.909 s
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Total thread preprocess time: 2.718 s
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Percentage time preprocessing: 1.84%
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Effective parallelization: 5.09 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    5 times, average 1.80 sec, max 2.68 sec, min 0.87 sec)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 1.50 sec, max 1.50 sec, min 1.50 sec)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 1.48 sec, max 1.48 sec, min 1.48 sec)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   68 times, average 1.47 sec, max 2.04 sec, min 0.91 sec)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 1.37 sec, max 1.37 sec, min 1.37 sec)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 67.43% of total time (compiled   68 times, average 1.47 sec, max 2.04 sec, min 0.91 sec)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 6.08% of total time (compiled    5 times, average 1.80 sec, max 2.68 sec, min 0.87 sec)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 3.02% of total time (compiled    6 times, average 0.74 sec, max 1.87 sec, min 0.24 sec)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 2.50% of total time (compiled    4 times, average 0.92 sec, max 1.06 sec, min 0.64 sec)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 1.72% of total time (compiled    2 times, average 1.27 sec, max 1.63 sec, min 0.91 sec)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: === Material stats ===
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Materials Translated:    143
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Material Translation Only: 0.03 s (35%)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: Material Cache Hits: 26 (18%)
+[2025.04.30-01.02.12:061][  9]LogShaderCompilers: Display: ================================================
+[2025.04.30-01.02.13:213][ 91]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.02.13:727][128]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.02.14:671][196]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.02.15:032][222]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.02.16:100][299]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.02.19:480][542]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.02.20:926][646]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.02.21:524][689]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.03.54:519][383]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2086.600830
+[2025.04.30-01.03.54:629][391]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-01.03.54:629][391]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2086.697021, Update Interval: 357.998596
+[2025.04.30-01.04.37:195][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.30-01.04.37:195][453]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2025.04.30-01.04.37:220][453]LogSlate: Window 'WildCard Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.108.0)' being destroyed
+[2025.04.30-01.04.37:226][453]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2025.04.30-01.04.37:226][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.30-01.04.37:229][453]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.30-01.04.37:232][453]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.30-01.04.37:255][453]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.04.30-01.04.37:255][453]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.04.30-01.04.37:258][453]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.04.30-01.04.37:264][453]LogSlate: Slate User Unregistered.  User Index 8
+[2025.04.30-01.04.37:264][453]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2025.04.30-01.04.37:264][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.04.30-01.04.37:311][454]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2025.04.30-01.04.56:515][583]LogSlate: Took 0.006332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.04.30-01.05.00:222][ 24]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18413529575478728980
+[2025.04.30-01.05.00:222][ 24]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2025.04.30-01.05.00:222][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.30-01.05.26:560][962]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2025.04.30-01.05.26:560][962]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2025.04.30-01.05.26:562][962]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Temp/Untitled_1.Untitled_1:PersistentLevel.NavMeshBoundsVolume_0
+[2025.04.30-01.05.26:563][962]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Temp/Untitled_1.Untitled_1:PersistentLevel.NavMeshBoundsVolume_0
+[2025.04.30-01.06.32:176][344]Cmd: POLY SELECT MEMORY UNION
+[2025.04.30-01.07.57:582][ 59]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.04.30-01.07.57:601][ 59]LogContentBrowser: Creating deferred item: NewFolder
+[2025.04.30-01.07.57:605][ 59]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.04.30-01.08.04:835][ 59]LogContentBrowser: Attempting asset rename: NewFolder -> WildCardMap
+[2025.04.30-01.08.04:836][ 59]LogContentBrowser: End creating deferred item NewFolder
+[2025.04.30-01.08.17:752][ 59]LogSlate: Window 'Save Level As' being destroyed
+[2025.04.30-01.08.17:871][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.04.30-01.08.17:878][ 59]LogSavePackage: Moving output files for package: /Game/WildCardMap/WildCardWorld
+[2025.04.30-01.08.17:878][ 59]LogSavePackage: Moving '../../../../../../Users/Ben/OneDrive/Documents/GitHub/WildcardGameProject/WildCard/Saved/WildCardWorldB0A102664BED836E85F8A1981B5528EA.tmp' to '../../../../../../Users/Ben/OneDrive/Documents/GitHub/WildcardGameProject/WildCard/Content/WildCardMap/WildCardWorld.umap'
+[2025.04.30-01.08.17:898][ 59]LogFileHelpers: Saving map 'WildCardWorld' took 0.116
+[2025.04.30-01.08.17:898][ 59]Cmd: MAP LOAD FILE="../../../../../../Users/Ben/OneDrive/Documents/GitHub/WildcardGameProject/WildCard/Content/WildCardMap/WildCardWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.04.30-01.08.17:959][ 59]LogWorld: UWorld::CleanupWorld for WildCardWorld, bSessionEnded=true, bCleanupResources=true
+[2025.04.30-01.08.17:959][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.30-01.08.17:984][ 59]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.30-01.08.17:985][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.04.30-01.08.17:986][ 59]LogStreaming: Display: FlushAsyncLoading(366): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.30-01.08.17:988][ 59]LogAudio: Display: Audio Device (ID: 1) registered with world 'WildCardWorld'.
+[2025.04.30-01.08.17:988][ 59]LogChaosDD: Creating Chaos Debug Draw Scene for world WildCardWorld
+[2025.04.30-01.08.17:989][ 59]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/WildCardMap/WildCardWorld.WildCardWorld'.
+[2025.04.30-01.08.18:027][ 59]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.04.30-01.08.18:053][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.04.30-01.08.18:064][ 59]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.04.30-01.08.18:064][ 59]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.048ms to complete.
+[2025.04.30-01.08.18:100][ 59]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.30-01.08.18:100][ 59]LogContentValidation: Enabled validators:
+[2025.04.30-01.08.18:100][ 59]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.30-01.08.18:100][ 59]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.30-01.08.18:100][ 59]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.30-01.08.18:100][ 59]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.30-01.08.18:100][ 59]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.30-01.08.18:100][ 59]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.30-01.08.18:100][ 59]AssetCheck: /Game/WildCardMap/WildCardWorld Validating asset
+[2025.04.30-01.08.23:945][717]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.30-01.08.24:021][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2025.04.30-01.08.24:030][717]LogSavePackage: Moving output files for package: /Game/WildCardMap/WildCardWorld
+[2025.04.30-01.08.24:030][717]LogSavePackage: Moving '../../../../../../Users/Ben/OneDrive/Documents/GitHub/WildcardGameProject/WildCard/Saved/WildCardWorldFB857CA146CE221498F643A35686D977.tmp' to '../../../../../../Users/Ben/OneDrive/Documents/GitHub/WildcardGameProject/WildCard/Content/WildCardMap/WildCardWorld.umap'
+[2025.04.30-01.08.24:040][717]LogFileHelpers: Saving map 'WildCardWorld' took 0.062
+[2025.04.30-01.08.24:049][717]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.017 ms (total: 451.490 ms)
+[2025.04.30-01.08.24:079][717]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.30-01.08.24:079][717]LogContentValidation: Enabled validators:
+[2025.04.30-01.08.24:079][717]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.30-01.08.24:079][717]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.30-01.08.24:079][717]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.30-01.08.24:079][717]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.30-01.08.24:079][717]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.30-01.08.24:079][717]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.30-01.08.24:079][717]AssetCheck: /Game/WildCardMap/WildCardWorld Validating asset
+[2025.04.30-01.09.01:525][534]LogDebuggerCommands: Repeating last play command: VR Preview
+[2025.04.30-01.09.01:530][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.30-01.09.01:530][534]LogPlayLevel: Creating play world package: /Game/WildCardMap/UEDPIE_0_WildCardWorld
+[2025.04.30-01.09.01:532][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001913s)
+[2025.04.30-01.09.01:532][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WildCardMap/WildCardWorld.WildCardWorld to /Game/WildCardMap/UEDPIE_0_WildCardWorld.WildCardWorld (0.001945s)
+[2025.04.30-01.09.01:558][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.04.30-01.09.01:559][534]LogChaosDD: Creating Chaos Debug Draw Scene for world WildCardWorld
+[2025.04.30-01.09.01:560][534]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/WildCardMap/UEDPIE_0_WildCardWorld.WildCardWorld'.
+[2025.04.30-01.09.01:560][534]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2025.04.30-01.09.01:561][534]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.04.30-01.09.01:561][534]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.30-01.09.01:561][534]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.30-01.09.01:561][534]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.30-01.09.01:561][534]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.30-01.09.01:561][534]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.30-01.09.01:561][534]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.30-01.09.01:561][534]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.30-01.09.01:561][534]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.30-01.09.01:561][534]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.30-01.09.01:561][534]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.30-01.09.01:561][534]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.30-01.09.01:563][534]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.30-01.09.01:595][534]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (2- Realtek USB Audio)
+[2025.04.30-01.09.01:596][534]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.30-01.09.01:596][534]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.30-01.09.01:596][534]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.30-01.09.01:597][534]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.04.30-01.09.01:597][534]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=5
+[2025.04.30-01.09.01:599][534]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.04.30-01.09.01:599][534]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.04.30-01.09.01:599][534]LogInit: FAudioDevice initialized with ID 5.
+[2025.04.30-01.09.01:599][534]LogAudio: Display: Audio Device (ID: 5) registered with world 'WildCardWorld'.
+[2025.04.30-01.09.01:599][534]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.04.30-01.09.01:620][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.30-01.09.01:749][534]LogLoad: Game class is 'VRGameMode_C'
+[2025.04.30-01.09.01:751][534]LogWorld: Bringing World /Game/WildCardMap/UEDPIE_0_WildCardWorld.WildCardWorld up for play (max tick rate 0) at 2025.04.29-19.09.01
+[2025.04.30-01.09.01:751][534]LogWorld: Bringing up level for play took: 0.001368
+[2025.04.30-01.09.01:754][534]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2025.04.30-01.09.01:756][534]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2025.04.30-01.09.01:757][534]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2025.04.30-01.09.01:757][534]xr.SecondaryScreenPercentage.HMDRenderTarget = "100"
+[2025.04.30-01.09.01:760][534]PIE: Server logged in
+[2025.04.30-01.09.01:762][534]PIE: Play in editor total start time 0.232 seconds.
+[2025.04.30-01.09.01:762][534]LogHMD: Warning: Input Action IA_Hand_Point_Right has a Description, "", which exactly matches the Description already used by Action IA_Hand_Point_Left.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Hand_Point_Right, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.09.01:762][534]LogHMD: Warning: Input Action IA_Hand_ThumbUp_Left has a Description, "", which exactly matches the Description already used by Action IA_Hand_Point_Left.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Hand_ThumbUp_Left, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.09.01:762][534]LogHMD: Warning: Input Action IA_Hand_ThumbUp_Right has a Description, "", which exactly matches the Description already used by Action IA_Hand_Point_Left.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Hand_ThumbUp_Right, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.09.01:762][534]LogHMD: Warning: Input Action IA_Hand_Grasp_Left has a Description, "", which exactly matches the Description already used by Action IA_Hand_Point_Left.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Hand_Grasp_Left, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.09.01:762][534]LogHMD: Warning: Input Action IA_Hand_Grasp_Right has a Description, "", which exactly matches the Description already used by Action IA_Hand_Point_Left.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Hand_Grasp_Right, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.09.01:762][534]LogHMD: Warning: Input Action IA_Hand_IndexCurl_Left has a Description, "", which exactly matches the Description already used by Action IA_Hand_Point_Left.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Hand_IndexCurl_Left, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.09.01:762][534]LogHMD: Warning: Input Action IA_Hand_IndexCurl_Right has a Description, "", which exactly matches the Description already used by Action IA_Hand_Point_Left.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Hand_IndexCurl_Right, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.09.01:762][534]LogHMD: Warning: Input Mapping Context IMC_Menu has a Description, "", which exactly matches the Description already used by Input Mapping Context IMC_Hands.  Identical localized descriptions are not allowed by OpenXR.  The FName of this mapping context IMC_Menu, which is unique, will replace the duplicated localized string so the Input Mapping Context functions but it will not localize correctly.
+[2025.04.30-01.09.01:762][534]LogHMD: Warning: Input Action IA_Menu_Interact_Right_Pressed has a Description, "", which exactly matches the Description already used by Action IA_Menu_Interact_Left_Pressed.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Menu_Interact_Right_Pressed, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.09.01:762][534]LogHMD: Warning: Input Action IA_Menu_Cursor_Left has a Description, "", which exactly matches the Description already used by Action IA_Menu_Interact_Left_Pressed.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Menu_Cursor_Left, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.09.01:762][534]LogHMD: Warning: Input Action IA_Menu_Cursor_Right has a Description, "", which exactly matches the Description already used by Action IA_Menu_Interact_Left_Pressed.  Identical localized descriptions are not allowed by OpenXR.  The FName of this action IA_Menu_Cursor_Right, which is unique, will replace the localized string so that the input Action functions but it will not localize correctly.
+[2025.04.30-01.09.01:762][534]LogHMD: Warning: Input Mapping Context IMC_Weapon_Left has a Description, "", which exactly matches the Description already used by Input Mapping Context IMC_Hands.  Identical localized descriptions are not allowed by OpenXR.  The FName of this mapping context IMC_Weapon_Left, which is unique, will replace the duplicated localized string so the Input Mapping Context functions but it will not localize correctly.
+[2025.04.30-01.09.01:762][534]LogHMD: Warning: Input Mapping Context IMC_Weapon_Right has a Description, "", which exactly matches the Description already used by Input Mapping Context IMC_Hands.  Identical localized descriptions are not allowed by OpenXR.  The FName of this mapping context IMC_Weapon_Right, which is unique, will replace the duplicated localized string so the Input Mapping Context functions but it will not localize correctly.
+[2025.04.30-01.09.01:803][534]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2025.04.30-01.09.08:755][ 27]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.09.09:436][ 76]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.09.09:962][114]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.09.10:379][144]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.09.10:796][174]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.09.11:296][210]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.09.11:755][243]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.09.12:102][268]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.09.12:421][291]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.09.12:714][312]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.09.13:075][338]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.09.13:519][370]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.09.13:908][398]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.09.14:214][420]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.09.15:991][548]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2025.04.30-01.09.20:159][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.30-01.09.20:159][847]LogWorld: BeginTearingDown for /Game/WildCardMap/UEDPIE_0_WildCardWorld
+[2025.04.30-01.09.20:188][847]LogSlate: Window 'WildCard Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.108.0)' being destroyed
+[2025.04.30-01.09.20:194][847]LogWorld: UWorld::CleanupWorld for WildCardWorld, bSessionEnded=true, bCleanupResources=true
+[2025.04.30-01.09.20:194][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.30-01.09.20:198][847]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.30-01.09.20:201][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.30-01.09.20:227][847]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.04.30-01.09.20:227][847]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.04.30-01.09.20:230][847]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.04.30-01.09.20:235][847]LogSlate: Slate User Unregistered.  User Index 8
+[2025.04.30-01.09.20:235][847]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2025.04.30-01.09.20:236][847]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.04.30-01.09.20:266][848]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2025.04.30-01.10.39:234][161]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2491.310791
+[2025.04.30-01.10.40:234][164]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-01.10.40:235][164]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2491.977539, Update Interval: 316.957916
+[2025.04.30-01.16.31:247][217]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2843.321045
+[2025.04.30-01.16.32:247][220]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-01.16.32:247][220]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2843.987793, Update Interval: 326.712250
+[2025.04.30-01.22.55:926][371]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3228.000000
+[2025.04.30-01.22.56:925][374]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-01.22.56:925][374]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3228.666260, Update Interval: 335.510742
+[2025.04.30-01.29.19:273][521]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3611.348145
+[2025.04.30-01.29.20:273][524]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-01.29.20:274][524]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3612.015869, Update Interval: 326.615204
+[2025.04.30-01.31.04:666][838]LogDerivedDataCache: C:/Users/Ben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.021 and deleted 0 files with total size 0 MiB and 10 empty folders. Scanned 176 files in 364 folders with total size 2 MiB.
+[2025.04.30-01.35.37:292][655]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3989.369629
+[2025.04.30-01.35.38:291][658]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-01.35.38:291][658]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3990.036621, Update Interval: 318.382507
+[2025.04.30-01.41.27:582][705]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4339.668457
+[2025.04.30-01.41.28:582][708]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-01.41.28:582][708]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4340.337891, Update Interval: 332.212891
+[2025.04.30-01.47.58:597][878]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4730.709473
+[2025.04.30-01.47.59:598][881]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-01.47.59:598][881]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4731.376465, Update Interval: 301.428253
+[2025.04.30-01.53.35:275][888]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5067.401367
+[2025.04.30-01.53.36:275][891]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-01.53.36:275][891]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5068.068359, Update Interval: 307.207245
+[2025.04.30-01.59.41:300][986]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5433.481445
+[2025.04.30-01.59.42:300][989]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-01.59.42:300][989]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5434.148438, Update Interval: 326.941132
+[2025.04.30-02.05.52:335][ 99]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5804.590332
+[2025.04.30-02.05.53:335][102]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-02.05.53:335][102]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5805.257324, Update Interval: 352.906281
+[2025.04.30-02.12.18:989][ 30]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6191.254395
+[2025.04.30-02.12.19:989][ 33]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-02.12.19:989][ 33]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6191.921387, Update Interval: 352.803741
+[2025.04.30-02.19.01:003][236]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6593.282227
+[2025.04.30-02.19.02:004][239]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-02.19.02:004][239]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6593.948730, Update Interval: 325.624573
+[2025.04.30-02.25.01:352][317]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6953.647949
+[2025.04.30-02.25.02:352][320]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-02.25.02:352][320]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6954.314941, Update Interval: 304.266479
+[2025.04.30-02.27.34:025][775]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: ea4...51c
+[2025.04.30-02.27.34:025][775]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.82 RefreshExpires: 1.554e+07
+[2025.04.30-02.27.35:026][778]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: ea4...51c Access[Expires: 2025.04.30-04.27.33 Remaining: 7200.64] Refresh[Expires: 2025-10-27T00:03:27.500Z Remaining: 15543354.50] State: Valid
+[2025.04.30-02.30.42:034][339]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7294.347168
+[2025.04.30-02.30.43:035][342]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-02.30.43:035][342]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7295.013672, Update Interval: 311.136810
+[2025.04.30-02.31.04:659][407]LogDerivedDataCache: C:/Users/Ben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.014 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 176 files in 354 folders with total size 2 MiB.
+[2025.04.30-02.36.33:045][392]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7645.361816
+[2025.04.30-02.36.34:045][395]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-02.36.34:045][395]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7646.028809, Update Interval: 340.297241
+[2025.04.30-02.38.17:088][133]LogStreaming: Display: FlushAsyncLoading(367): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.30-02.38.17:091][133]LogStaticMesh: Display: Building static mesh Wall_400x200 (Required Memory Estimate: 0.02689 MB)...
+[2025.04.30-02.38.17:093][133]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2025.04.30-02.38.17:217][136]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2025.04.30-02.38.17:217][136]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2025.04.30-02.38.17:218][136]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200 as actor: StaticMeshActor /Game/WildCardMap/WildCardWorld.WildCardWorld:PersistentLevel.StaticMeshActor_1
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: ================================================
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Total job queries 214, among them cache hits 10 (4.67%), DDC hits 60 (28.04%), Duplicates 9 (4.21%)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Tracking 195 distinct input hashes that result in 175 distinct outputs (89.74%)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: RAM used: 136.14 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Shaders Compiled: 134
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Jobs assigned 135, completed 134 (99.26%)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Average time worker was idle: 406.21 s
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Time job spent in pending queue: average 2.11 s, longest 11.14 s
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Job execution time: average 6.83 s, max 14.83 s
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Job life time (pending + execution): average 8.96 s, max 14.91
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Shader code size: average 24.665 KiB, min 1.656 KiB, max 49.172 KiB
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 30.98 s
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Jobs were issued in 60 batches (only local compilation was used), average 2.25 jobs/batch
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Average processing rate: 4.33 jobs/sec
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Total thread time: 148.605 s
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Total thread preprocess time: 2.772 s
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Percentage time preprocessing: 1.87%
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Effective parallelization: 4.80 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    5 times, average 1.80 sec, max 2.68 sec, min 0.87 sec)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 1.50 sec, max 1.50 sec, min 1.50 sec)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 1.48 sec, max 1.48 sec, min 1.48 sec)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   68 times, average 1.47 sec, max 2.04 sec, min 0.91 sec)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 1.37 sec, max 1.37 sec, min 1.37 sec)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 67.11% of total time (compiled   68 times, average 1.47 sec, max 2.04 sec, min 0.91 sec)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 6.05% of total time (compiled    5 times, average 1.80 sec, max 2.68 sec, min 0.87 sec)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 3.00% of total time (compiled    6 times, average 0.74 sec, max 1.87 sec, min 0.24 sec)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 2.95% of total time (compiled    5 times, average 0.88 sec, max 1.06 sec, min 0.64 sec)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 1.71% of total time (compiled    2 times, average 1.27 sec, max 1.63 sec, min 0.91 sec)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: === Material stats ===
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Materials Translated:    144
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Material Translation Only: 0.03 s (35%)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: Material Cache Hits: 26 (18%)
+[2025.04.30-02.38.19:045][324]LogShaderCompilers: Display: ================================================
+[2025.04.30-02.38.19:338][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.04.30-02.38.19:340][354]LogEditorActor: Deleted 0 Actors (0.033 secs)
+[2025.04.30-02.38.19:353][354]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2025.04.30-02.38.19:353][354]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2025.04.30-02.38.19:354][354]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200 as actor: StaticMeshActor /Game/WildCardMap/WildCardWorld.WildCardWorld:PersistentLevel.StaticMeshActor_2
+[2025.04.30-02.39.44:959][994]Cmd: EDIT COPY
+[2025.04.30-02.39.46:169][139]Cmd: EDIT PASTE
+[2025.04.30-02.40.05:633][414]Cmd: EDIT PASTE
+[2025.04.30-02.40.42:069][476]Cmd: EDIT COPY
+[2025.04.30-02.40.42:636][544]Cmd: EDIT PASTE
+[2025.04.30-02.41.14:623][  8]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2025.04.30-02.41.14:624][  8]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2025.04.30-02.41.14:624][  8]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200 as actor: StaticMeshActor /Game/WildCardMap/WildCardWorld.WildCardWorld:PersistentLevel.StaticMeshActor_6
+[2025.04.30-02.41.15:095][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.04.30-02.41.15:096][ 53]LogEditorActor: Deleted 0 Actors (0.027 secs)
+[2025.04.30-02.41.15:108][ 53]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2025.04.30-02.41.15:108][ 53]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2025.04.30-02.41.15:109][ 53]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200 as actor: StaticMeshActor /Game/WildCardMap/WildCardWorld.WildCardWorld:PersistentLevel.StaticMeshActor_7
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: ================================================
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Total job queries 224, among them cache hits 14 (6.25%), DDC hits 60 (26.79%), Duplicates 9 (4.02%)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Tracking 201 distinct input hashes that result in 182 distinct outputs (90.55%)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: RAM used: 138.50 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Shaders Compiled: 141
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Jobs assigned 141, completed 141 (100%)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Average time worker was idle: 801.45 s
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Time job spent in pending queue: average 2.03 s, longest 11.14 s
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Job execution time: average 6.55 s, max 14.83 s
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Job life time (pending + execution): average 8.57 s, max 14.91
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Shader code size: average 23.925 KiB, min 1.656 KiB, max 49.172 KiB
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 33.33 s
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Jobs were issued in 66 batches (only local compilation was used), average 2.14 jobs/batch
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Average processing rate: 4.23 jobs/sec
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Total thread time: 152.378 s
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Total thread preprocess time: 2.882 s
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Percentage time preprocessing: 1.89%
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Effective parallelization: 4.57 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    6 times, average 1.81 sec, max 2.68 sec, min 0.87 sec)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 1.50 sec, max 1.50 sec, min 1.50 sec)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 1.48 sec, max 1.48 sec, min 1.48 sec)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   68 times, average 1.47 sec, max 2.04 sec, min 0.91 sec)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 1.37 sec, max 1.37 sec, min 1.37 sec)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 65.45% of total time (compiled   68 times, average 1.47 sec, max 2.04 sec, min 0.91 sec)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 7.11% of total time (compiled    6 times, average 1.81 sec, max 2.68 sec, min 0.87 sec)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 3.51% of total time (compiled    8 times, average 0.67 sec, max 1.87 sec, min 0.24 sec)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 2.88% of total time (compiled    5 times, average 0.88 sec, max 1.06 sec, min 0.64 sec)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 1.67% of total time (compiled    2 times, average 1.27 sec, max 1.63 sec, min 0.91 sec)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: === Material stats ===
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Materials Translated:    144
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Material Translation Only: 0.03 s (35%)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: Material Cache Hits: 26 (18%)
+[2025.04.30-02.41.19:048][518]LogShaderCompilers: Display: ================================================
+[2025.04.30-02.41.32:812][886]Cmd: EDIT COPY
+[2025.04.30-02.41.33:354][951]Cmd: EDIT PASTE
+[2025.04.30-02.41.40:717][777]Cmd: DELETE
+[2025.04.30-02.41.40:717][777]Cmd: ACTOR DELETE
+[2025.04.30-02.41.40:719][777]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.30-02.41.40:745][777]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.04.30-02.41.40:748][777]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2025.04.30-02.42.02:762][323]Cmd: EDIT COPY
+[2025.04.30-02.42.03:374][395]Cmd: EDIT PASTE
+[2025.04.30-02.42.45:775][287]Cmd: EDIT PASTE
+[2025.04.30-02.43.02:874][168]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8035.096680
+[2025.04.30-02.43.02:959][178]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-02.43.02:959][178]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8035.171875, Update Interval: 314.872284
+[2025.04.30-02.43.22:010][445]LogStreaming: Display: FlushAsyncLoading(368): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.30-02.43.22:011][445]LogStaticMesh: Display: Building static mesh Wall_Door_400x300 (Required Memory Estimate: 0.077385 MB)...
+[2025.04.30-02.43.22:012][445]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2025.04.30-02.43.22:201][456]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2025.04.30-02.43.22:201][456]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2025.04.30-02.43.22:201][456]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300 as actor: StaticMeshActor /Game/WildCardMap/WildCardWorld.WildCardWorld:PersistentLevel.StaticMeshActor_11
+[2025.04.30-02.43.23:281][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.04.30-02.43.23:283][570]LogEditorActor: Deleted 0 Actors (0.029 secs)
+[2025.04.30-02.43.23:294][570]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2025.04.30-02.43.23:294][570]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2025.04.30-02.43.23:295][570]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300 as actor: StaticMeshActor /Game/WildCardMap/WildCardWorld.WildCardWorld:PersistentLevel.StaticMeshActor_12
+[2025.04.30-02.44.23:590][339]Cmd: EDIT COPY
+[2025.04.30-02.44.24:357][431]Cmd: EDIT PASTE
+[2025.04.30-02.44.47:653][ 49]Cmd: EDIT COPY
+[2025.04.30-02.44.48:137][107]Cmd: EDIT PASTE
+[2025.04.30-02.45.36:993][726]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2025.04.30-02.45.36:993][726]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2025.04.30-02.45.36:993][726]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300 as actor: StaticMeshActor /Game/WildCardMap/WildCardWorld.WildCardWorld:PersistentLevel.StaticMeshActor_15
+[2025.04.30-02.45.38:190][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.04.30-02.45.38:192][854]LogEditorActor: Deleted 0 Actors (0.032 secs)
+[2025.04.30-02.45.38:203][854]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2025.04.30-02.45.38:203][854]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2025.04.30-02.45.38:204][854]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300 as actor: StaticMeshActor /Game/WildCardMap/WildCardWorld.WildCardWorld:PersistentLevel.StaticMeshActor_16
+[2025.04.30-02.46.00:712][431]Cmd: EDIT COPY
+[2025.04.30-02.46.01:487][524]Cmd: EDIT PASTE
+[2025.04.30-02.46.26:630][380]Cmd: TRANSACTION UNDO
+[2025.04.30-02.46.26:630][380]LogEditorTransaction: Undo Set Scale
+[2025.04.30-02.46.52:632][298]LogSlate: Took 0.005552 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.04.30-02.47.08:706][118]LogStreaming: Display: FlushAsyncLoading(369): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.30-02.47.18:452][202]LogStreaming: Display: FlushAsyncLoading(370): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: ================================================
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Total job queries 243, among them cache hits 16 (6.58%), DDC hits 60 (24.69%), Duplicates 9 (3.70%)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Tracking 218 distinct input hashes that result in 193 distinct outputs (88.53%)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: RAM used: 142.35 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Shaders Compiled: 156
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Jobs assigned 158, completed 156 (98.73%)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Average time worker was idle: 634.49 s
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Time job spent in pending queue: average 1.81 s, longest 11.14 s
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Job execution time: average 6.02 s, max 14.83 s
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Job life time (pending + execution): average 7.86 s, max 14.91
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Shader code size: average 23.012 KiB, min 1.656 KiB, max 49.172 KiB
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 43.16 s
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Jobs were issued in 83 batches (only local compilation was used), average 1.90 jobs/batch
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Average processing rate: 3.61 jobs/sec
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Total thread time: 165.881 s
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Total thread preprocess time: 3.073 s
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Percentage time preprocessing: 1.85%
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Effective parallelization: 3.84 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   10 times, average 1.84 sec, max 2.68 sec, min 0.87 sec)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 1.50 sec, max 1.50 sec, min 1.50 sec)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 1.48 sec, max 1.48 sec, min 1.48 sec)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   68 times, average 1.47 sec, max 2.04 sec, min 0.91 sec)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 1.37 sec, max 1.37 sec, min 1.37 sec)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 60.12% of total time (compiled   68 times, average 1.47 sec, max 2.04 sec, min 0.91 sec)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 11.09% of total time (compiled   10 times, average 1.84 sec, max 2.68 sec, min 0.87 sec)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 4.96% of total time (compiled   10 times, average 0.82 sec, max 1.06 sec, min 0.64 sec)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 3.47% of total time (compiled    9 times, average 0.64 sec, max 1.87 sec, min 0.24 sec)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 1.94% of total time (compiled   11 times, average 0.29 sec, max 0.41 sec, min 0.22 sec)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: === Material stats ===
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Materials Translated:    146
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Material Translation Only: 0.03 s (36%)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: Material Cache Hits: 26 (18%)
+[2025.04.30-02.47.19:058][259]LogShaderCompilers: Display: ================================================
+[2025.04.30-02.47.32:905][828]LogStreaming: Display: FlushAsyncLoading(371): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.30-02.47.50:962][895]LogStreaming: Display: FlushAsyncLoading(372): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.30-02.48.39:771][587]LogStreaming: Display: FlushAsyncLoading(373): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.30-02.49.04:263][455]LogStreaming: Display: FlushAsyncLoading(374): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.30-02.49.06:783][726]LogPSOHitching: Encountered 50 PSO creation hitches so far (39 graphics, 11 compute). 0 of them were precached.
+[2025.04.30-02.49.10:985][214]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8403.177734
+[2025.04.30-02.49.11:102][228]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.30-02.49.11:102][228]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8403.287109, Update Interval: 323.874023
+[2025.04.30-02.49.20:541][312]LogStreaming: Display: FlushAsyncLoading(375): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.30-02.49.54:408][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.04.30-02.49.54:416][617]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/WildCardMap/WildCardWorld_Auto1
+[2025.04.30-02.49.54:416][617]LogSavePackage: Moving '../../../../../../Users/Ben/OneDrive/Documents/GitHub/WildcardGameProject/WildCard/Saved/WildCardWorld_Auto17791E0884F4DA6D735E48D928B81E71B.tmp' to '../../../../../../Users/Ben/OneDrive/Documents/GitHub/WildcardGameProject/WildCard/Saved/Autosaves/Game/WildCardMap/WildCardWorld_Auto1.umap'
+[2025.04.30-02.49.54:417][617]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/WildCardMap/WildCardWorld' took 0.036
+[2025.04.30-02.49.54:417][617]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.036
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: ================================================
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Total job queries 277, among them cache hits 19 (6.86%), DDC hits 60 (21.66%), Duplicates 9 (3.25%)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Tracking 249 distinct input hashes that result in 217 distinct outputs (87.15%)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: RAM used: 154.32 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Shaders Compiled: 189
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Jobs assigned 189, completed 189 (100%)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Average time worker was idle: 450.95 s
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Time job spent in pending queue: average 1.53 s, longest 11.14 s
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Job execution time: average 5.15 s, max 14.83 s
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Job life time (pending + execution): average 6.68 s, max 14.91
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Shader code size: average 21.76 KiB, min 1.656 KiB, max 49.172 KiB
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 63.05 s
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Jobs were issued in 114 batches (only local compilation was used), average 1.66 jobs/batch
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Average processing rate: 3.00 jobs/sec
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Total thread time: 193.891 s
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Total thread preprocess time: 3.458 s
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Percentage time preprocessing: 1.78%
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Effective parallelization: 3.08 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   18 times, average 1.85 sec, max 2.68 sec, min 0.87 sec)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 1.50 sec, max 1.50 sec, min 1.50 sec)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 1.48 sec, max 1.48 sec, min 1.48 sec)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   68 times, average 1.47 sec, max 2.04 sec, min 0.91 sec)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 1.37 sec, max 1.37 sec, min 1.37 sec)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 51.44% of total time (compiled   68 times, average 1.47 sec, max 2.04 sec, min 0.91 sec)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 17.18% of total time (compiled   18 times, average 1.85 sec, max 2.68 sec, min 0.87 sec)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 8.87% of total time (compiled   22 times, average 0.78 sec, max 1.06 sec, min 0.64 sec)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 3.64% of total time (compiled   12 times, average 0.59 sec, max 1.87 sec, min 0.24 sec)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 3.11% of total time (compiled   21 times, average 0.29 sec, max 0.41 sec, min 0.22 sec)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: === Material stats ===
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Materials Translated:    151
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Material Translation Only: 0.03 s (37%)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: Material Cache Hits: 26 (17%)
+[2025.04.30-02.50.19:351][692]LogShaderCompilers: Display: ================================================
+[2025.04.30-02.51.26:146][528]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.30-02.51.26:230][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2025.04.30-02.51.26:239][528]LogSavePackage: Moving output files for package: /Game/WildCardMap/WildCardWorld
+[2025.04.30-02.51.26:240][528]LogSavePackage: Moving '../../../../../../Users/Ben/OneDrive/Documents/GitHub/WildcardGameProject/WildCard/Saved/WildCardWorldFECEBB024EFDC18CA4908F886634BD17.tmp' to '../../../../../../Users/Ben/OneDrive/Documents/GitHub/WildcardGameProject/WildCard/Content/WildCardMap/WildCardWorld.umap'
+[2025.04.30-02.51.26:252][528]LogFileHelpers: Saving map 'WildCardWorld' took 0.073
+[2025.04.30-02.51.26:272][528]LogFileHelpers: InternalPromptForCheckoutAndSave took 126.128 ms (total: 577.618 ms)
+[2025.04.30-02.51.26:302][528]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.30-02.51.26:302][528]LogContentValidation: Enabled validators:
+[2025.04.30-02.51.26:302][528]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.30-02.51.26:302][528]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.30-02.51.26:302][528]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.30-02.51.26:302][528]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.30-02.51.26:302][528]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.30-02.51.26:302][528]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.30-02.51.26:302][528]AssetCheck: /Game/WildCardMap/WildCardWorld Validating asset
