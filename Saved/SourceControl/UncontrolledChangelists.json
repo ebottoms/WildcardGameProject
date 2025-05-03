@@ -1,0 +1,50 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/VRTemplate/Maps/VRTemplateMap.umap",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/VRTemplate/Blueprints/VRPawn.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/VRTemplate/Input/Actions/custom/IA_Move2D.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/VRTemplate/Input/IMC_Default.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/Control/SC_Pointer.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/Control/IA_Move2D_Right.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/Control/IA_Move2D_Left.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/WeepingAngel.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/VRTemplate/Maps/VRTemplateMap_BuiltData.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/LevelPrototyping/Meshes/SM_Cube.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/LevelPrototyping/Meshes/SM_Cube_glass.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/AngelBody.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/AngelFace.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/AngelWings.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/angelwings_nrm.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/Docterwho.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/Docterwho_Skeleton.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/Docterwho_PhysicsAsset.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/angelwings1.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/angelface_nrm.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/angelface1.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/angelbody1.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/angelbody_nrm.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/weepingangel_attack_AngelAttack.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/weepingangel_attack_Angelidle.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/weepingangel_attack_AngelPoint.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/weepingangel_idle_AngelAttack.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/weepingangel_idle_Angelidle.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/AI/Assets/weepingangel_idle_AngelPoint.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/Objects/RED_KEY.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/Objects/RED.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/Objects/BLUE.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/Objects/GREEN.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/Objects/BLUE_KEY.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/Objects/GREEN_KEY.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/Mechanisms/TriggerVolume.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/Audio/audio.uasset",
+				"C:/Users/ebottoms/Documents/Unreal Projects/WeepingAI/Content/Wildcard/Audio/soundfx.uasset"
+			]
+		}
+	]
+}
